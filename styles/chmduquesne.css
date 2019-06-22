@@ -48,6 +48,7 @@ dt {
     float: left;
     clear: left;
     width: 17%;
+    overflow-wrap: break-word;
 }
 
 strong {
