@@ -62,12 +62,6 @@ Education
 
 Hobbies
 -------
-* Languages:
-    * French (native)
-    * English (proficient)
-    * German (proficient)
-    * Bavarian (adept)
-
+* Languages: French (native), English (proficient), German (proficient), Bavarian (adept)
 * Weightlifting
-
 * Philology

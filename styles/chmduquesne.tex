@@ -30,7 +30,7 @@ $endif$
 
 %\setuppagenumbering[location={footer,center}]
 
-\setupbodyfont[11pt, helvetica]
+\setupbodyfont[11pt, courier]
 
 \setupwhitespace[medium]
 
@@ -82,8 +82,6 @@ $endfor$
 \starttext
 $if(title)$
 \startalignment[center]
-  \blank[2*big]
-  {\tfd $title$}
 $if(author)$
   \blank[3*medium]
   {\tfa $for(author)$$author$$sep$\crlf $endfor$}
@@ -103,8 +101,4 @@ $if(toc)$
 $endif$
 
 $body$
-
-$for(include-after)$
-$include-after$
-$endfor$
 \stoptext

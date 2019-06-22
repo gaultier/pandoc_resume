@@ -10,11 +10,11 @@
 
 /* Whole document */
 body {
-    font-family: "Roboto";
+    font-family: "Courier";
     max-width: 800px;
     margin: auto;
     background: #FFFFFF;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 0 10px;
 }
 
 /* Title of the resume */
@@ -22,7 +22,8 @@ h1 {
     font-size: 55px;
     color: #5c6bc0;
     text-align:center;
-    margin-bottom:15px;
+    margin-bottom:10px;
+    margin-top:0;
 }
 
 /* Titles of categories */
@@ -49,15 +50,19 @@ dt {
 }
 
 strong {
-    font-weight: 600;
 }
 
 dd {
     margin-left: 17%;
 }
-p {
+p:nth-child(odd) {
     margin-top:0;
-    margin-bottom:7px;
+    margin-bottom:10px;
+}
+
+p:nth-child(even) {
+    margin-top:2rem;
+    margin-bottom:10px;
 }
 
 /* Blockquotes */
