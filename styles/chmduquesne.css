@@ -54,6 +54,7 @@ strong {
 
 dd {
     margin-left: 17%;
+    margin-bottom: .5rem;
 }
 p:nth-child(odd) {
     margin-top:0;
@@ -63,10 +64,6 @@ p:nth-child(odd) {
 p:nth-child(even) {
     margin-top:2rem;
     margin-bottom:10px;
-}
-
-dd:nth-child(2) {
-    margin-bottom: 2rem;
 }
 
 /* Blockquotes */
