@@ -1,9 +1,11 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
 Philippe Gaultier
 =================
 
 
 > I am a Software Engineer focusing on delivering *simple*, high quality software that one can easily deploy, troubleshoot and maintain. 
-> I also take a big interest in DevOps and in enabling all the above for my team and my organisation in a *predictable*, *automated* fashion.
+> I also take a big interest in DevOps and in enabling all the above for my team and my organisation in a *predictable*, *automated* fashion, using modern tools.
 
 ----------------    ---------------------------------
 Heuweg 6A                     philigaultier@gmail.com

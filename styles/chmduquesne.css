@@ -10,7 +10,7 @@
 
 /* Whole document */
 body {
-    font-family: "Courier";
+    font-family: "Roboto";
     max-width: 800px;
     margin: auto;
     background: #FFFFFF;
@@ -46,8 +46,12 @@ dt {
     float: left;
     clear: left;
     width: 17%;
-    /*font-weight: bold;*/
 }
+
+strong {
+    font-weight: 600;
+}
+
 dd {
     margin-left: 17%;
 }
@@ -58,7 +62,8 @@ p {
 
 /* Blockquotes */
 blockquote {
-    text-align: center
+    text-align: center;
+    margin: 2rem;
 }
 
 /* Links */
