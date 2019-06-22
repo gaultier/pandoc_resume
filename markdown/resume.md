@@ -1,100 +1,67 @@
-Johnny Coder
-============
+Philippe Gaultier
+=================
 
-----
-
->  In this style, the resume starts with a blockquote, where
->  you can briefly list your specialties, or include a salient
->  quote. Ending a line with a backslash forces a line break.
-
-----
-
-Education
----------
-
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
-
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
-
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
-
-    *Minor: Awesomeology*
+----------------    ---------------------------------
+Heuweg 6A                     philigaultier@gmail.com
+Landshut 84034            https://github.com/gaultier
+Germany                                    TODO phone
+----------------    ---------------------------------
 
 Experience
 ----------
 
-**Your Most Recent Work Experience:**
+**Full-stack Software Engineer**; PPRO, Munich, Germany
 
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
+I write and deploy end-to-end Fintech webservices that help making millions of transactions for billions of euros, in a variety of tech stacks (C++, Kotlin, Typescript, Docker, Kubernetes). I also helped moving multiple services from the datacenter to the cloud without disruption. 2017-present.
 
-* First item
+**Full-stack Software Engineer**; EdgeLab, Lausanne, Switzerland
 
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
+I joined a Fintech startup and helped the product (risk analytics & investment decision making application) go to the next level by introducing internationalization, OAuth, Continuous Integration, and upgrading to the latest language standards (ECMAScript 6, C++14). 2015-2017.
 
-**That Other Job You Had**
+**CRNS Intern Software Engineer experimenting with Oculus Rift (VR)**; CNRS, Strasbourg, France
 
-Also with a short description.
+3D Oculus Rift (virtual reality) visualization software of astronomical data for children & researchers in C, C++ and OpenGL. 2014.
 
-Technical Experience
+**Intern Software Engineer**; Crédit Mutuel (Bank), Strasbourg, France
+
+I migrated a COBOL mainframe accounting application to a C# web application.
+
+ 
+Technical experience
 --------------------
 
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
-
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
-
-Open Source
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
+Libprom
+:   [A pure C library](https://github.com/gaultier/libprom) to parse Prometheus (monitoring software) metrics in a text format, wuth no dependencies. This allows any software with C interop to consume the metrics produced by applications in the Prometheus format. It comes with a Prometheus format to YAML CLI converter as an example.
 
 Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
+:   **C++:** Professional experience including the latest standards
 
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file). 
+:   **C:** Professional experience including the latest standards
 
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
+:   **Javascript, Typescript**: Professional experience including the latest standards and the mainstream libraries (React, Redux)
 
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
+:   Basic knowledge of **x86 assembly**, **Awk**, **Shell**, **Clojure**, **Kotlin**
 
-[ref]: https://github.com/githubuser/superlongprojectname
+Education
+---------
 
-Extra Section, Call it Whatever You Want
-----------------------------------------
+2012-2015
+:   **Masters in Computer Science & Engineering Degree**; ENSIIE, Strasbourg, France
 
-* Human Languages:
+2010-2012
+:   **Higher School Preparatory Classes**; Lycée Kléber, Strasbourg, France 
 
-     * English (native speaker)
-     * ???
-     * This is what a nested list looks like.
+2007-2012
+:   **Abibac (dual French & German Highschool Diploma)**; Belfort, France
 
-* Random tidbit
+Hobbies
+-------
+* Languages:
+    * French (native)
+    * English (proficient)
+    * German (proficient)
+    * Bavarian (adept)
 
-* Other sort of impressive-sounding thing you did
+* Weightlifting
 
-----
-
-> <email@example.com> • +00 (0)00 000 0000 • XX years old\
-> address - Mytown, Mycountry
+* Philology
