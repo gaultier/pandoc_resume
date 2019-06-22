@@ -1,12 +1,14 @@
 Philippe Gaultier
 =================
 
-I am a Software Engineer focusing a delivering simple, high quality software that anyone can easily deploy, troubleshoot and maintain.
+
+> I am a Software Engineer focusing on delivering *simple*, high quality software that one can easily deploy, troubleshoot and maintain. 
+> I also take a big interest in DevOps and in enabling all the above for my team and my organisation in a *predictable*, *automated* fashion.
 
 ----------------    ---------------------------------
 Heuweg 6A                     philigaultier@gmail.com
 Landshut 84034            https://github.com/gaultier
-Germany                                    TODO phone
+Germany                                    +49 152 04806376
 ----------------    ---------------------------------
 
 Experience
@@ -14,19 +16,19 @@ Experience
 
 **Full-stack Software Engineer** *PPRO, Munich, Germany; 2017-present*
 
-I write and deploy end-to-end Fintech webservices that help making millions of transactions for billions of euros, in a variety of tech stacks (C++, Kotlin, Typescript, Docker, Kubernetes). I also helped moving multiple services from the datacenter to the cloud without disruption.
+I write and deploy end-to-end Fintech webservices that help making millions of transactions for billions of euros, in a variety of tech stacks (*C++*, *Kotlin*, *Typescript*, *Docker*, *Kubernetes*). I also helped moving multiple services from the datacenter to the cloud without disruption.
 
 **Full-stack Software Engineer** *EdgeLab, Lausanne, Switzerland; 2015-2017*
 
-I joined a Fintech startup and helped the product (risk analytics & investment decision making application) go to the next level by introducing internationalization, OAuth, Continuous Integration, and upgrading to the latest language standards (ECMAScript 6, C++14).
+I joined a Fintech startup and helped the product (risk analytics & investment decision making application) go to the next level by introducing internationalization, OAuth, Continuous Integration, and upgrading to the latest language standards (*ECMAScript 6*, *C++14*).
 
 **CRNS Intern Software Engineer experimenting with Oculus Rift (VR)** *CNRS, Strasbourg, France; 2014*
 
-3D Oculus Rift (virtual reality) visualization software of astronomical data for children & researchers in C, C++ and OpenGL.
+3D Oculus Rift (virtual reality) visualization software of astronomical data for children & researchers in *C*, *C++* and *OpenGL*.
 
 **Intern Software Engineer** *Crédit Mutuel (Bank), Strasbourg, France; 2013*
 
-I migrated a COBOL mainframe accounting application to a C# web application.
+I migrated a *COBOL* mainframe accounting application to a *C#* web application.
 
  
 Technical experience

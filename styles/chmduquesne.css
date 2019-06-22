@@ -10,7 +10,7 @@
 
 /* Whole document */
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Courier";
     max-width: 800px;
     margin: auto;
     background: #FFFFFF;
@@ -67,12 +67,17 @@ a {
     color: #455a64;
 }
 
+blockquote {
+    font-weight: lighter;
+    color: #37474f;
+}
+
 table {
-    color: #546e7a;
+    color: #607d8b;
     width: 100%;
 }
 
 em {
-    color: #546e7a;
+    color: #607d8b;
 }
 </style>
