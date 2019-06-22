@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>resume</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <style type="text/css">
+  /*
+   * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+   *
+   * CSS for making a resume with pandoc. Inspired by moderncv.
+   *
+   * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+   * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+   */
+  
+  /* Whole document */
+  body {
+      font-family: "Roboto", Arial, Helvetica, sans-serif;
+      max-width: 800px;
+      margin: auto;
+      background: #FFFFFF;
+      padding: 10px 10px 0 10px;
+      font-weight: lighter;
+  }
+  
+  /* Title of the resume */
+  h1 {
+      font-size: 55px;
+      color: #5c6bc0;
+      text-align:center;
+      margin-bottom:10px;
+      margin-top:0;
+  }
+  
+  /* Titles of categories */
+  h2 {
+      /* This is called "sectioncolor" in the ConTeXt stylesheet. */
+      color: #5c6bc0;
+  }
+  /* There is a bar just before each category */
+  h2:before {
+      content: "";
+      display: inline-block;
+      margin-right:1%;
+      width: 16%;
+      height: 10px;
+      /* This is called "rulecolor" in the ConTeXt stylesheet. */
+      background-color: #311b92;
+  }
+  
+  /* Definitions */
+  dt {
+      float: left;
+      clear: left;
+      width: 17%;
+  }
+  
+  strong {
+  }
+  
+  dd {
+      margin-left: 17%;
+      margin-bottom: .5rem;
+  }
+  p:nth-child(odd) {
+      margin-top:0;
+      margin-bottom:10px;
+  }
+  
+  p:nth-child(even) {
+      margin-top:2rem;
+      margin-bottom:10px;
+  }
+  
+  /* Blockquotes */
+  blockquote {
+      text-align: center;
+      margin: 2rem;
+  }
+  
+  /* Links */
+  a {
+      text-decoration: none;
+      color: #455a64;
+  }
+  
+  blockquote {
+      font-weight: lighter;
+      color: #37474f;
+  }
+  
+  table {
+      color: #607d8b;
+      width: 100%;
+  }
+  
+  em {
+      color: #607d8b;
+  }
+  </style>
+</head>
+<body>
+<p><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" /></p>
+<h1 id="philippe-gaultier">Philippe Gaultier</h1>
+<blockquote>
+<p>I am a Software Engineer focusing on delivering <em>simple</em>, high quality software that one can easily deploy, troubleshoot and maintain. I also take a big interest in DevOps and in enabling all the above for my team and my organization in a <em>predictable</em>, <em>automated</em> fashion, using modern tools.</p>
+</blockquote>
+<table>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Heuweg 6A</td>
+<td style="text-align: right;">philigaultier@gmail.com</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Landshut 84034</td>
+<td style="text-align: right;">https://github.com/gaultier</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Germany</td>
+<td style="text-align: right;">+49 152 04806376</td>
+</tr>
+</tbody>
+</table>
+<h2 id="experience">Experience</h2>
+<p><strong>Full-stack Software Engineer</strong> <em>PPRO, Munich, Germany; 2017-present</em></p>
+<p>I write and deploy end-to-end Fintech web services that help making millions of transactions for billions of euros, in a variety of tech stacks (<em>C++</em>, <em>Kotlin</em>, <em>Typescript</em>, <em>Docker</em>, <em>Kubernetes</em>). I also helped moving multiple services from the data center to the cloud without disruption.</p>
+<p><strong>Full-stack Software Engineer</strong> <em>EdgeLab, Lausanne, Switzerland; 2015-2017</em></p>
+<p>I joined a Fintech startup and helped the product (risk analytics &amp; investment decision making application) go to the next level by introducing internationalization, OAuth, Continuous Integration, and upgrading to the latest language standards (<em>ECMAScript 6</em>, <em>C++14</em>).</p>
+<p><strong>CRNS Intern Software Engineer experimenting with Oculus Rift (VR)</strong> <em>CNRS, Strasbourg, France; 2014</em></p>
+<p>3D Oculus Rift (virtual reality) visualization software of astronomical data for children &amp; researchers in <em>C</em>, <em>C++</em> and <em>OpenGL</em>.</p>
+<p><strong>Intern Software Engineer</strong> <em>Crédit Mutuel (Bank), Strasbourg, France; 2013</em></p>
+<p>I migrated a <em>COBOL</em> mainframe accounting application to a <em>C#</em> web application.</p>
+<h2 id="technical-experience">Technical experience</h2>
+<dl>
+<dt>Libprom</dt>
+<dd><a href="https://github.com/gaultier/libprom" target="_blank">A pure C library</a> to parse Prometheus (monitoring software) metrics in a text format, with no dependencies. This allows any software with C interoperability to consume the metrics produced by applications in the Prometheus format. It comes with a Prometheus format to YAML CLI converter as an example.
+</dd>
+<dt>Programming Languages</dt>
+<dd><strong>C++:</strong> Professional experience including the latest standards
+</dd>
+<dd><p><strong>C:</strong> Professional experience including the latest standards</p>
+</dd>
+<dd><p><strong>JavaScript, Typescript</strong>: Professional experience including the latest standards and the mainstream libraries (React, Redux)</p>
+</dd>
+<dd><p>Basic knowledge of <strong>x86 assembly</strong>, <strong>Awk</strong>, <strong>Shell</strong>, <strong>Clojure</strong>, <strong>Kotlin</strong></p>
+</dd>
+</dl>
+<h2 id="education">Education</h2>
+<dl>
+<dt>2012-2015</dt>
+<dd><strong>Masters in Computer Science &amp; Engineering Degree</strong> <em>ENSIIE, Strasbourg, France</em>
+</dd>
+<dt>2010-2012</dt>
+<dd><strong>Higher School Preparatory Classes</strong> <em>Lycée Kléber, Strasbourg, France</em>
+</dd>
+<dt>2007-2012</dt>
+<dd><strong>Abibac (dual French &amp; German Highschool Diploma)</strong> <em>Belfort, France</em>
+</dd>
+</dl>
+<h2 id="hobbies">Hobbies</h2>
+<ul>
+<li>Languages: French (native), English (proficient), German (proficient), Bavarian (adept)</li>
+<li>Weightlifting</li>
+<li>Philology</li>
+</ul>
+</body>
+</html>
