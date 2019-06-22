@@ -10,7 +10,7 @@
 
 /* Whole document */
 body {
-    font-family: "Courier";
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
     max-width: 800px;
     margin: auto;
     background: #FFFFFF;
