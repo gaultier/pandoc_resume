@@ -18,11 +18,11 @@ Experience
 
 **Full-stack Software Engineer** *PPRO, Munich, Germany; 2017-present*
 
-I write and deploy end-to-end Fin tech web services that help making millions of transactions for billions of euros, in a variety of tech stacks (*C++*, *Kotlin*, *Typescript*, *Docker*, *Kubernetes*). I also helped moving multiple services from the data center to the cloud without disruption.
+I write and deploy end-to-end Fintech web services that help making millions of transactions for billions of euros, in a variety of tech stacks (*C++*, *Kotlin*, *Typescript*, *Docker*, *Kubernetes*). I also helped moving multiple services from the data center to the cloud without disruption.
 
 **Full-stack Software Engineer** *EdgeLab, Lausanne, Switzerland; 2015-2017*
 
-I joined a Fin tech startup and helped the product (risk analytics & investment decision making application) go to the next level by introducing internationalization, OAuth, Continuous Integration, and upgrading to the latest language standards (*ECMAScript 6*, *C++14*).
+I joined a Fintech startup and helped the product (risk analytics & investment decision making application) go to the next level by introducing internationalization, OAuth, Continuous Integration, and upgrading to the latest language standards (*ECMAScript 6*, *C++14*).
 
 **CRNS Intern Software Engineer experimenting with Oculus Rift (VR)** *CNRS, Strasbourg, France; 2014*
 
