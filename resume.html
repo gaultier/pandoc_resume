@@ -5,11 +5,144 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>resume</title>
-  <style type="text/css">
-      code{white-space: pre-wrap;}
-      span.smallcaps{font-variant: small-caps;}
-      span.underline{text-decoration: underline;}
-      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
@@ -23,7 +156,7 @@
    * This CSS document is delivered to you under the CC BY-SA 3.0 License.
    * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
    */
-  
+
   /* Whole document */
   body {
       font-family: "Roboto", Arial, Helvetica, sans-serif;
@@ -33,7 +166,7 @@
       padding: 10px 10px 0 10px;
       font-weight: lighter;
   }
-  
+
   /* Title of the resume */
   h1 {
       font-size: 55px;
@@ -42,7 +175,7 @@
       margin-bottom:10px;
       margin-top:0;
   }
-  
+
   /* Titles of categories */
   h2 {
       /* This is called "sectioncolor" in the ConTeXt stylesheet. */
@@ -58,7 +191,7 @@
       /* This is called "rulecolor" in the ConTeXt stylesheet. */
       background-color: #311b92;
   }
-  
+
   /* Definitions */
   dt {
       float: left;
@@ -66,10 +199,10 @@
       width: 17%;
       overflow-wrap: break-word;
   }
-  
+
   strong {
   }
-  
+
   dd {
       margin-left: 17%;
       margin-bottom: .5rem;
@@ -78,34 +211,34 @@
       margin-top:0;
       margin-bottom:10px;
   }
-  
+
   p:nth-child(even) {
       margin-top:2rem;
       margin-bottom:10px;
   }
-  
+
   /* Blockquotes */
   blockquote {
       text-align: center;
       margin: 2rem;
   }
-  
+
   /* Links */
   a {
       text-decoration: none;
       color: #455a64;
   }
-  
+
   blockquote {
       font-weight: lighter;
       color: #37474f;
   }
-  
+
   table {
       color: #607d8b;
       width: 100%;
   }
-  
+
   em {
       color: #607d8b;
   }
@@ -121,11 +254,11 @@
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">Heuweg 6A</td>
-<td style="text-align: right;"><a href="mailto:philigaultier@gmail.com">philigaultier@gmail.com</a></td>
+<td style="text-align: right;"><a href="mailto:philigaultier@gmail.com" class="email">philigaultier@gmail.com</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Landshut 84034</td>
-<td style="text-align: right;"><a href="https://github.com/gaultier" class="uri" target="_blank">https://github.com/gaultier</a></td>
+<td style="text-align: right;"><a href="https://github.com/gaultier" target="_blank">https://github.com/gaultier</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Germany</td>
@@ -135,7 +268,7 @@
 </table>
 <h2 id="experience">Experience</h2>
 <p><strong>Full-stack Software Engineer</strong> <em>PPRO, Munich, Germany; 2017-present</em></p>
-<p>I write and deploy end-to-end Fintech web services that help making millions of transactions for billions of euros, in a variety of tech stacks (<em>C++</em>, <em>Kotlin</em>, <em>Typescript</em>, <em>Docker</em>, <em>Kubernetes</em>). I also helped moving multiple services from the data center to the cloud without disruption.</p>
+<p>I write and deploy end-to-end Fintech web services that help making millions of transactions for billions of euros, in a variety of tech stacks (<em>Go</em>, <em>C++</em>, <em>Kotlin</em>, <em>Docker</em>, <em>Kubernetes</em>, <em>Terraform</em>). I also helped moving multiple services from the data center to the cloud without disruption.</p>
 <p><strong>Full-stack Software Engineer</strong> <em>EdgeLab, Lausanne, Switzerland; 2015-2017</em></p>
 <p>I joined a Fintech startup and helped the product (risk analytics &amp; investment decision making application) go to the next level by introducing internationalization, OAuth, Continuous Integration, and upgrading to the latest language standards (<em>ECMAScript 6</em>, <em>C++14</em>).</p>
 <p><strong>CRNS Intern Software Engineer experimenting with Oculus Rift (VR)</strong> <em>CNRS, Strasbourg, France; 2014</em></p>
@@ -148,13 +281,13 @@
 <dd><a href="https://github.com/gaultier/libprom" target="_blank">A pure C library</a> to parse Prometheus (monitoring software) metrics in a text format, with no dependencies. This allows any software with C interoperability to consume the metrics produced by applications in the Prometheus format. It comes with a Prometheus format to YAML CLI converter as an example.
 </dd>
 <dt>Programming Languages</dt>
-<dd><strong>C++:</strong> Professional experience including the latest standards
+<dd><strong>Go</strong> Professional experience including the latest standards
 </dd>
 <dd><p><strong>C:</strong> Professional experience including the latest standards</p>
 </dd>
-<dd><p><strong>JavaScript, Typescript</strong>: Professional experience including the latest standards and the mainstream libraries (React, Redux)</p>
+<dd><p><strong>Rust</strong>: Enthusiast with several open-source projects to my belt</p>
 </dd>
-<dd><p>Basic knowledge of <strong>x86 assembly</strong>, <strong>Awk</strong>, <strong>Shell</strong>, <strong>Clojure</strong>, <strong>Kotlin</strong></p>
+<dd><p>Solid knowledge of <strong>x64 assembly</strong>, <strong>Awk</strong>, <strong>Shell</strong>, <strong>Terraform</strong></p>
 </dd>
 </dl>
 <h2 id="education">Education</h2>
