@@ -8,8 +8,8 @@ Philippe Gaultier
 > I also take a big interest in DevOps and in enabling all the above for my team and my organization in a *predictable*, *automated* fashion, using modern tools.
 
 ----------------    ---------------------------------
-Heuweg 6A                     <philigaultier@gmail.com>
-Landshut 84034            [https://github.com/gaultier](https://github.com/gaultier)
+Piesenkofen 8A                     <philigaultier@gmail.com>
+84546 Egglkofen            [https://github.com/gaultier](https://github.com/gaultier)
 Germany                                    +49 152 04806376
 ----------------    ---------------------------------
 
