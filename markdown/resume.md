@@ -18,7 +18,7 @@ Experience
 
 **Full-stack Software Engineer** *PPRO, Munich, Germany; 2017-present*
 
-I write and deploy end-to-end Fintech web services that help making millions of transactions for billions of euros, in a variety of tech stacks (*C++*, *Kotlin*, *Typescript*, *Docker*, *Kubernetes*). I also helped moving multiple services from the data center to the cloud without disruption.
+I write and deploy end-to-end Fintech web services that help making millions of transactions for billions of euros, in a variety of tech stacks (*Go*, *C++*, *Kotlin*, *Docker*, *Kubernetes*, *Terraform*). I also helped moving multiple services from the data center to the cloud without disruption.
 
 **Full-stack Software Engineer** *EdgeLab, Lausanne, Switzerland; 2015-2017*
 
@@ -40,13 +40,13 @@ Libprom
 :   [A pure C library](https://github.com/gaultier/libprom) to parse Prometheus (monitoring software) metrics in a text format, with no dependencies. This allows any software with C interoperability to consume the metrics produced by applications in the Prometheus format. It comes with a Prometheus format to YAML CLI converter as an example.
 
 Programming Languages
-:   **C++:** Professional experience including the latest standards
+:   **Go** Professional experience including the latest standards
 
 :   **C:** Professional experience including the latest standards
 
-:   **JavaScript, Typescript**: Professional experience including the latest standards and the mainstream libraries (React, Redux)
+:   **Rust**: Enthusiast with several open-source projects to my belt
 
-:   Basic knowledge of **x86 assembly**, **Awk**, **Shell**, **Clojure**, **Kotlin**
+:   Solid knowledge of **x64 assembly**, **Awk**, **Shell**, **Terraform**
 
 Education
 ---------
