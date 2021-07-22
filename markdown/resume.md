@@ -4,8 +4,7 @@ Philippe Gaultier
 =================
 
 
-> I am a Software Engineer focusing on delivering *simple*, high quality software that one can easily deploy, troubleshoot and maintain. 
-> I also take a big interest in DevOps and in enabling all the above for my team and my organization in a *predictable*, *automated* fashion, using modern tools.
+> I am a Software Engineer and DevOps  focusing on delivering *simple*, high quality software that one can easily deploy, troubleshoot and maintain. 
 
 ----------------    ---------------------------------
 Piesenkofen 8A                     <philigaultier@gmail.com>
@@ -16,9 +15,10 @@ Germany                                    +49 152 04806376
 Experience
 ----------
 
-**Full-stack Software Engineer** *PPRO, Munich, Germany; 2017-present*
+**Full-stack Software Engineer and DevOps** *PPRO, Munich, Germany; 2017-present*
 
 I write and deploy end-to-end Fintech web services that help making millions of transactions for billions of euros, in a variety of tech stacks (*Go*, *C++*, *Kotlin*, *Docker*, *Kubernetes*, *Terraform*). I also helped moving multiple services from the data center to the cloud without disruption.
+In the later years, I are moving more and more to DevOps & SRE responsabilities such as adding logging, metrics, alerting, distributed tracing and performance monitoring to existing software in order to increase their reliability, as well as guaranteeing SLAs crucial to the business.
 
 **Full-stack Software Engineer** *EdgeLab, Lausanne, Switzerland; 2015-2017*
 
