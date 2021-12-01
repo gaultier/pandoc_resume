@@ -38,14 +38,20 @@ I migrated a *COBOL* mainframe accounting application to a *C#* web application 
 Technical experience
 --------------------
 
-:   **AWS, Docker** 7+ years of experience delivering 15+ production applications. 
 
-:   **Kafka, Kubernetes** 3+ years of experience delivering 10+ production applications. 
+2013-Present
+:   **AWS, Docker** 15+ production applications delivered. 
 
-:   **Go** Professional experience including the latest versions. I wrote multiple performance production applications in Go.
+2018-Present
+:   **Kafka, Kubernetes** 10+ production applications delivered.
 
+2018-Present
+:   **Go** Professional experience. Multiple performant production applications in Go delivered.
+
+2011-Present
 :   **C and C++:** Professional experience including the latest standards. I created lots of small hobby projects and worked on big, long-lived applications in those languages.
 
+2016-Present
 :   **Rust**: Enthusiast with several open-source projects to my belt. I would love to work on Rust projects for a living!
 
 :   Solid knowledge of **x64 assembly**, **Awk**, **Shell**, **Terraform**, **Python (2/3)**, **JVM**. I worked on small and big production applications in those languages, but I don't see myself working full-time with those.
