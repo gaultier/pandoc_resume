@@ -15,4 +15,4 @@ resume.html: markdown/resume.md
 			markdown/resume.md
 
 clean:
-	rm -f resume.html resume.md *.pdf
+	rm -f resume.html Philippe_Gaultier_resume_en.pdf
