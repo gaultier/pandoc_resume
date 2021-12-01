@@ -6,7 +6,7 @@ brew install pandoc wkhtmltopdf
 make
 ```
 
-[Download](Philippe_Gaultier_resume_en.pdf)
+[Download](https://raw.githubusercontent.com/gaultier/resume/master/Philippe_Gaultier_resume_en.pdf)
 
-[See online](resume.html)
+[See online](https://gaultier.github.io/resume/resume)
 
