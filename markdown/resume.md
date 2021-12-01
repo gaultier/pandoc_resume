@@ -14,7 +14,7 @@ Germany                                    +49 152 04806376
 Experience
 ----------
 
-**Back-end Software Engineer and DevOps** *PPRO, Munich, Germany; 2017-present*
+**Back-end Software Engineer & DevOps** *PPRO, Munich, Germany; 2017-present*
 
 I write and deploy end-to-end Fintech web services that serve millions of customers worldwide with billions of euros in transaction volume, in a variety of tech stacks (*Go*, *C++*, *Kotlin*, *Docker*, *Kubernetes*, *Terraform*), with high availability and regulatory constraints.
 I also help moving multiple services from the data center to the cloud without disruption or customers even noticing.
@@ -48,7 +48,7 @@ Technical experience
 :   **Go** Multiple performant production applications in Go delivered.
 
 2011-Present
-:   **C and C++:** Worked on lots of small side projects and big, long-lived production applications.
+:   **C & C++:** Worked on lots of small side projects and big, long-lived production applications.
 
 2016-Present
 :   **Rust**: Enthusiast with several open-source projects to my belt. I would love to work on Rust projects for a living!
