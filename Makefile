@@ -1,7 +1,9 @@
 STYLES_DIR=styles
 STYLE=chmduquesne
 
-pdf: resume.html
+.PHONY: clean
+
+Philippe_Gaultier_resume_en.pdf: resume.html
 	wkhtmltopdf --title '' resume.html Philippe_Gaultier_resume_en.pdf
 
 resume.html: markdown/resume.md
