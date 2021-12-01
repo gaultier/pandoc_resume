@@ -19,7 +19,7 @@ Experience
 
 I write and deploy end-to-end Fintech web services that serve millions of customers worldwide with billions of euros in transaction volume, in a variety of tech stacks (*Go*, *C++*, *Kotlin*, *Docker*, *Kubernetes*, *Terraform*), with high availability and regulatory constraints.
 I also help moving multiple services from the data center to the cloud without disruption or customers even noticing.
-Lately, I have been moving more and more to DevOps & SRE responsabilities such as adding logging, metrics, alerting, distributed tracing and performance monitoring to existing software in order to increase their reliability, as well as guaranteeing SLAs crucial to the business. I do on-call and technical interviews.
+Lately, I have been moving more and more to DevOps & SRE responsabilities such as adding logging, metrics, alerting, distributed tracing and performance monitoring to existing software in order to increase their reliability, as well as guaranteeing SLAs crucial to the business. I do on-call for business critical services, and I also conduct technical interviews.
 
 **Full-stack Software Engineer** *EdgeLab, Lausanne, Switzerland; 2015-2017*
 
