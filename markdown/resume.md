@@ -46,10 +46,10 @@ Technical experience
 :   **Kafka, Kubernetes** 10+ production applications delivered.
 
 2018-Present
-:   **Go** Professional experience. Multiple performant production applications in Go delivered.
+:   **Go** Multiple performant production applications in Go delivered.
 
 2011-Present
-:   **C and C++:** Professional experience including the latest standards. I created lots of small hobby projects and worked on big, long-lived applications in those languages.
+:   **C and C++:** Worked on lots of small side projects and big, long-lived production applications.
 
 2016-Present
 :   **Rust**: Enthusiast with several open-source projects to my belt. I would love to work on Rust projects for a living!
