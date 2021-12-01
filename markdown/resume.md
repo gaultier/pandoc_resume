@@ -45,7 +45,7 @@ Programming Languages
 
 :   **Rust**: Enthusiast with several open-source projects to my belt. I would love to work on Rust projects for a living!
 
-:   Solid knowledge of **x64 assembly**, **Awk**, **Shell**, **Terraform**, **Python**, **JVM**. I worked on small and big production applications in those languages, but I don't see myself working full-time with those.
+:   Solid knowledge of **x64 assembly**, **Awk**, **Shell**, **Terraform**, **Python (2/3)**, **JVM**. I worked on small and big production applications in those languages, but I don't see myself working full-time with those.
 
 Education
 ---------
