@@ -50,6 +50,9 @@ Programming Languages
 Education
 ---------
 
+2018-Present
+: **Several trainings and workshops by AWS**
+
 2012-2015
 :   **Masters in Computer Science & Engineering Degree** *ENSIIE, Strasbourg, France*
 
