@@ -38,7 +38,8 @@ I migrated a *COBOL* mainframe accounting application to a *C#* web application 
 Technical experience
 --------------------
 
-Programming Languages
+:   **AWS, Docker** 7+ years of experience delivering 15+ production applications. 
+
 :   **Go** Professional experience including the latest versions. I wrote multiple performance production applications in Go.
 
 :   **C and C++:** Professional experience including the latest standards. I created lots of small hobby projects and worked on long-lived applications in those languages.
