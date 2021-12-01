@@ -1,7 +1,6 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
 
-Philippe Gaultier
-=================
+## Philippe Gaultier
 
 
 > I am a Software Engineer and DevOps focusing on delivering *simple*, high quality software that's easy to understand, deploy, and troubleshoot. 
