@@ -42,7 +42,7 @@ Technical experience
 
 :   **Go** Professional experience including the latest versions. I wrote multiple performance production applications in Go.
 
-:   **C and C++:** Professional experience including the latest standards. I created lots of small hobby projects and worked on long-lived applications in those languages.
+:   **C and C++:** Professional experience including the latest standards. I created lots of small hobby projects and worked on big, long-lived applications in those languages.
 
 :   **Rust**: Enthusiast with several open-source projects to my belt. I would love to work on Rust projects for a living!
 
