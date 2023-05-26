@@ -3,18 +3,22 @@
 ## Philippe Gaultier
 
 
-> I am a Software Engineer and DevOps focusing on delivering *simple*, high quality software that's easy to understand, deploy, and troubleshoot. 
+> I am a Senior Software Engineer focusing on delivering *simple*, high quality software that's easy to understand, deploy, and troubleshoot. 
 
 ----------------    ---------------------------------
 Piesenkofen 8A                     <philigaultier@gmail.com>
 84546 Egglkofen            [https://github.com/gaultier](https://github.com/gaultier)
-Germany                                    +49 152 04806376
+Germany                                    +49 151 72465946
 ----------------    ---------------------------------
 
 Experience
 ----------
 
-**Back-end Software Engineer & DevOps** *PPRO, Munich, Germany; 2017-present*
+**Senior Software Engineer** *Giesecke & Devrient, Munich, Germany; 2023-present*
+
+I work on one of the most promising [Central Bank Digital Currency (CBDC)](https://en.wikipedia.org/wiki/Central_bank_digital_currency) already used by several countries with real users and banks, with *Go*, *Docker* and *Kubernetes*, with the highest levels of availability, correctness, and regulatory constraints.
+
+**Back-end Software Engineer & DevOps** *PPRO, Munich, Germany; 2017-2023*
 
 I write and deploy end-to-end Fintech web services that serve millions of customers worldwide with billions of euros in transaction volume, in a variety of tech stacks (*Go*, *C++*, *Kotlin*, *Docker*, *Kubernetes*, *Terraform*), with high availability and regulatory constraints.
 I also help moving multiple services from the data center to the cloud without disruption or customers even noticing.
@@ -22,7 +26,7 @@ Lately, I have been moving more and more to DevOps & SRE responsabilities such a
 
 **Full-stack Software Engineer** *EdgeLab, Lausanne, Switzerland; 2015-2017*
 
-I joined a Fintech startup and helped the product (risk analytics & investment decision making application) go to the next level by introducing internationalization, OAuth, Continuous Integration, and upgrading to the latest language standards (*ECMAScript 6*, *C++14*). 
+I joined a Fintech startup and helped the product (risk analytics & investment decision making application) go to the next level by introducing internationalization, OAuth, Continuous Integration, and upgrading to the latest language standards (*ECMAScript 6*, *C++14*), and worked among other things on the quantitative prediction algorithms in *C++*.
 The startup was later acquired by a major Swiss bank for a 8 digit number.
 
 **CRNS Intern Software Engineer experimenting with Oculus Rift (VR)** *CNRS, Strasbourg, France; 2014*
@@ -51,9 +55,9 @@ Technical experience
 :   **C & C++:** Worked on lots of small side projects and big, long-lived production applications.
 
 2016-Present
-:   **Rust**: Enthusiast with several open-source projects to my belt. I would love to work on Rust projects for a living!
+:   **Rust & Zig**: Enthusiast with several open-source projects to my belt. I would love to work on Rust or Zig projects for a living!
 
-:   Solid knowledge of **x64 assembly**, **Awk**, **Shell**, **Terraform**, **Python (2/3)**, **JVM**. I worked on small and big production applications in those languages, but I don't see myself working full-time with those.
+:   Solid knowledge of **x64 assembly**, **Terraform**, **Python (2/3)**, **JVM**, **Dtrace**. I worked on small and big production applications in those languages, but I don't see myself working full-time with those.
 
 Education
 ---------
@@ -74,5 +78,6 @@ Hobbies
 -------
 * Languages: French (native), English (fluent), German (fluent), Bavarian (adept)
 * Weightlifting
-* Philology
+* Philology (Language learning)
 * Cinema
+* Woodworking
