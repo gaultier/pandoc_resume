@@ -49,6 +49,7 @@ h2:before {
 #info {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /* Definitions */
