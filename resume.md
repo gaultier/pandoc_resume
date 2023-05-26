@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
-
 ## Philippe Gaultier
 
 
@@ -99,3 +97,4 @@ Hobbies
 * Philology (Language learning)
 * Cinema
 * Woodworking
+* Contributing to open-source projects
