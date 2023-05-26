@@ -155,6 +155,10 @@
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <style type="text/css">
+
+  hr {
+    background-color: rgb(200,200,200);
+  }
   /*
    * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
    *
@@ -166,12 +170,12 @@
 
   /* Whole document */
   body {
-      font-family: "Roboto", Arial, Helvetica, sans-serif;
+      font-family: monospace, sans-serif;
       max-width: 900px;
       margin: auto;
       background: #FFFFFF;
       padding: 8px 8px 0 8px;
-      font-weight: lighter;
+      /* font-weight: lighter; */
   }
 
   /* Title of the resume */
@@ -194,9 +198,14 @@
       display: inline-block;
       margin-right:1%;
       width: 16%;
-      height: 8px;
+      height: 8px; 
       /* This is called "rulecolor" in the ConTeXt stylesheet. */
       background-color: #311b92;
+  }
+
+  #info {
+      display: flex;
+      justify-content: space-between;
   }
 
   /* Definitions */
@@ -214,20 +223,16 @@
       margin-left: 17%;
       margin-bottom: .5rem;
   }
-  p:nth-child(odd) {
-      margin-top:0;
+  p {
       margin-bottom:8px;
-  }
-
-  p:nth-child(even) {
-      margin-top:1rem;
-      margin-bottom:8px;
+      margin-top:8px;
   }
 
   /* Blockquotes */
   blockquote {
       text-align: center;
       margin: 1rem;
+      font-weight: bold !important;
   }
 
   /* Links */
@@ -259,24 +264,24 @@
 <em>simple</em>, high quality software that’s easy to understand,
 deploy, and troubleshoot.</p>
 </blockquote>
-<table>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Piesenkofen 8A</td>
-<td style="text-align: right;"><a href="mailto:philigaultier@gmail.com"
-class="email">philigaultier@gmail.com</a></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">84546 Egglkofen</td>
-<td style="text-align: right;"><a href="https://github.com/gaultier"
-target="_blank">https://github.com/gaultier</a></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Germany</td>
-<td style="text-align: right;">+49 151 72465946</td>
-</tr>
-</tbody>
-</table>
+<hr>
+<section id="info">
+<div>
+<p>Piesenkofen 8A, 84546 Egglkofen, Germany</p>
+<p>+49 151 72465946</p>
+<p><a
+href="mailto:philigaultier@gmail.com">philigaultier@gmail.com</a></p>
+</div>
+<div>
+<p><a href="https://www.linkedin.com/in/philippegaultier"
+target="_blank">Linkedin</a></p>
+<p><a href="https://github.com/gaultier"
+target="_blank">https://github.com/gaultier</a></p>
+<p><a href="https://gaultier.github.io/blog/"
+target="_blank">Blog</a></p>
+</div>
+</section>
+<hr>
 <h2 id="experience">Experience</h2>
 <p><strong>Senior Software Engineer</strong> <em>Giesecke+Devrient,
 Munich, Germany; 2023-present</em></p>
@@ -318,8 +323,7 @@ astronomical data for pedagogical and research purposes in <em>C</em>,
 Strasbourg, France; 2013</em></p>
 <p>I migrated a <em>COBOL</em> mainframe accounting application to a
 <em>C#</em> web application with some new parts in <em>COBOL</em> for
-one of the biggest banks in the country (please don’t hire me for a
-COBOL job).</p>
+one of the biggest banks in the country.</p>
 <h2 id="technical-experience">Technical experience</h2>
 <dl>
 <dt>2013-Present</dt>
@@ -347,20 +351,16 @@ big, long-lived production applications.
 open-source projects to my belt. I would love to work with these
 languages for a living!
 </dd>
-<dd>
+</dl>
 <p>Solid knowledge of <strong>x64 assembly</strong>,
-<strong>Terraform</strong>, <strong>Python (2/3)</strong>,
+<strong>Terraform</strong>, <strong>Python</strong>,
 <strong>JVM</strong>, <strong>Dtrace</strong>. I worked on small and big
-production applications in those languages, but I don’t see myself
+production applications with those languages, but I don’t see myself
 working full-time with those.</p>
-</dd>
-<dd>
 <p>Miscellaneous knowledge of <strong>Nasm</strong>,
 <strong>Lua</strong>, <strong>Redis</strong>, <strong>DynamoDB</strong>,
 <strong>Lisp</strong>, <strong>Cassandra</strong>. I worked briefly with
 those technologies at work or on open-source projects.</p>
-</dd>
-</dl>
 <h2 id="education">Education</h2>
 <dl>
 <dt>2018-Present</dt>

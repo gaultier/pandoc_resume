@@ -5,11 +5,27 @@
 
 > I am a Senior Software Engineer focusing on delivering *simple*, high quality software that's easy to understand, deploy, and troubleshoot. 
 
-----------------    ---------------------------------
-Piesenkofen 8A                     <philigaultier@gmail.com>
-84546 Egglkofen            [https://github.com/gaultier](https://github.com/gaultier)
-Germany                                    +49 151 72465946
-----------------    ---------------------------------
+
+<hr>
+<section id="info">
+<div>
+Piesenkofen 8A, 84546 Egglkofen, Germany 
+
++49 151 72465946
+
+[philigaultier@gmail.com](mailto:philigaultier@gmail.com)
+</div>
+
+<div>
+[Linkedin](https://www.linkedin.com/in/philippegaultier)
+
+[https://github.com/gaultier](https://github.com/gaultier)
+
+[Blog](https://gaultier.github.io/blog/)
+</div>
+
+</section>
+<hr>
 
 Experience
 ----------
@@ -57,9 +73,9 @@ Technical experience
 2016-Present
 :   **Rust, Zig & Odin**: Enthusiast with several open-source projects to my belt. I would love to work with these languages for a living!
 
-:   Solid knowledge of **x64 assembly**, **Terraform**, **Python (2/3)**, **JVM**, **Dtrace**. I worked on small and big production applications in those languages, but I don't see myself working full-time with those.
+Solid knowledge of **x64 assembly**, **Terraform**, **Python**, **JVM**, **Dtrace**. I worked on small and big production applications with those languages, but I don't see myself working full-time with those.
 
-: Miscellaneous knowledge of **Nasm**, **Lua**, **Redis**, **DynamoDB**, **Lisp**, **Cassandra**. I worked briefly with those technologies at work or on open-source projects.
+Miscellaneous knowledge of **Nasm**, **Lua**, **Redis**, **DynamoDB**, **Lisp**, **Cassandra**. I worked briefly with those technologies at work or on open-source projects.
 
 Education
 ---------

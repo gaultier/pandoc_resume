@@ -1,4 +1,8 @@
 <style type="text/css">
+
+hr {
+  background-color: rgb(200,200,200);
+}
 /*
  * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
  *
@@ -10,12 +14,12 @@
 
 /* Whole document */
 body {
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-family: monospace, sans-serif;
     max-width: 900px;
     margin: auto;
     background: #FFFFFF;
     padding: 8px 8px 0 8px;
-    font-weight: lighter;
+    /* font-weight: lighter; */
 }
 
 /* Title of the resume */
@@ -38,9 +42,14 @@ h2:before {
     display: inline-block;
     margin-right:1%;
     width: 16%;
-    height: 8px;
+    height: 8px; 
     /* This is called "rulecolor" in the ConTeXt stylesheet. */
     background-color: #311b92;
+}
+
+#info {
+    display: flex;
+    justify-content: space-between;
 }
 
 /* Definitions */
@@ -58,20 +67,16 @@ dd {
     margin-left: 17%;
     margin-bottom: .5rem;
 }
-p:nth-child(odd) {
-    margin-top:0;
+p {
     margin-bottom:8px;
-}
-
-p:nth-child(even) {
-    margin-top:1rem;
-    margin-bottom:8px;
+    margin-top:8px;
 }
 
 /* Blockquotes */
 blockquote {
     text-align: center;
     margin: 1rem;
+    font-weight: bold !important;
 }
 
 /* Links */
