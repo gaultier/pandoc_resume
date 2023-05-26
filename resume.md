@@ -14,7 +14,7 @@ Germany                                    +49 151 72465946
 Experience
 ----------
 
-**Senior Software Engineer** *Giesecke & Devrient, Munich, Germany; 2023-present*
+**Senior Software Engineer** *Giesecke+Devrient, Munich, Germany; 2023-present*
 
 I work on one of the most promising [Central Bank Digital Currency (CBDC)](https://en.wikipedia.org/wiki/Central_bank_digital_currency) already used by several countries with real users and banks, with *Go*, *Docker* and *Kubernetes*, with the highest levels of availability, correctness, and regulatory constraints.
 
