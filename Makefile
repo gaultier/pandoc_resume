@@ -6,7 +6,7 @@ STYLE=chmduquesne
 Philippe_Gaultier_resume_en.pdf: resume.html
 	wkhtmltopdf --title '' resume.html Philippe_Gaultier_resume_en.pdf
 
-resume.html: resume.md
+resume.html: resume.md styles/chmduquesne.css
 		pandoc --standalone --include-in-header $(STYLES_DIR)/$(STYLE).css \
 			--lua-filter=pdc-links-target-blank.lua \
 			--from markdown --to html \

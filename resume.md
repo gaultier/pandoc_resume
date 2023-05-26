@@ -35,7 +35,7 @@ The startup was later acquired by a major Swiss bank for a 8 digit number.
 
 **Intern Software Engineer** *Crédit Mutuel (Bank), Strasbourg, France; 2013*
 
-I migrated a *COBOL* mainframe accounting application to a *C#* web application with some new parts in *COBOL* for one of the biggest banks in the country (please don't hire me for a COBOL job).
+I migrated a *COBOL* mainframe accounting application to a *C#* web application with some new parts in *COBOL* for one of the biggest banks in the country.
 
  
 Technical experience
@@ -55,7 +55,7 @@ Technical experience
 :   **C & C++:** Worked on lots of small side projects and big, long-lived production applications.
 
 2016-Present
-:   **Rust & Zig**: Enthusiast with several open-source projects to my belt. I would love to work on Rust or Zig projects for a living!
+:   **Rust, Zig & Odin**: Enthusiast with several open-source projects to my belt. I would love to work with these languages for a living!
 
 :   Solid knowledge of **x64 assembly**, **Terraform**, **Python (2/3)**, **JVM**, **Dtrace**. I worked on small and big production applications in those languages, but I don't see myself working full-time with those.
 
