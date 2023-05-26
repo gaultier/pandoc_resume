@@ -20,9 +20,9 @@ I work on one of the most promising [Central Bank Digital Currency (CBDC)](https
 
 **Back-end Software Engineer & DevOps** *PPRO, Munich, Germany; 2017-2023*
 
-I write and deploy end-to-end Fintech web services that serve millions of customers worldwide with billions of euros in transaction volume, in a variety of tech stacks (*Go*, *C++*, *Kotlin*, *Docker*, *Kubernetes*, *Terraform*), with high availability and regulatory constraints.
-I also help moving multiple services from the data center to the cloud without disruption or customers even noticing.
-Lately, I have been moving more and more to DevOps & SRE responsabilities such as adding logging, metrics, alerting, distributed tracing and performance monitoring to existing software in order to increase their reliability, as well as guaranteeing SLAs crucial to the business. I do on-call for business critical services, and I also conduct technical interviews.
+I wrote and deployed end-to-end Fintech web services that serve millions of customers worldwide with billions of euros in transaction volume, in a variety of tech stacks (*Go*, *C++*, *Kotlin*, *Docker*, *Kubernetes*, *Terraform*), with high availability and regulatory constraints.
+I also helped moving multiple services from the data center to the cloud without disruption or customers even noticing.
+I also have taken on DevOps & SRE responsabilities such as adding logging, metrics, alerting, distributed tracing and performance monitoring to existing software in order to increase their reliability, as well as guaranteeing SLAs crucial to the business. I did on-call for business critical services, and I conducted technical interviews.
 
 **Full-stack Software Engineer** *EdgeLab, Lausanne, Switzerland; 2015-2017*
 
@@ -46,7 +46,7 @@ Technical experience
 :   **AWS, Docker** 15+ production applications delivered. 
 
 2018-Present
-:   **Kafka, Kubernetes** 10+ production applications delivered.
+:   **Kafka, Kubernetes, MySQL, ProgresSQL, MariaDB** 10+ production applications delivered.
 
 2018-Present
 :   **Go** Multiple performant production applications in Go delivered.
@@ -58,6 +58,8 @@ Technical experience
 :   **Rust & Zig**: Enthusiast with several open-source projects to my belt. I would love to work on Rust or Zig projects for a living!
 
 :   Solid knowledge of **x64 assembly**, **Terraform**, **Python (2/3)**, **JVM**, **Dtrace**. I worked on small and big production applications in those languages, but I don't see myself working full-time with those.
+
+: Miscellaneous knowledge of **Lua**, **Redis**, **DynamoDB**, **Lisp**, **Cassandra**. I worked briefly with those technologies.
 
 Education
 ---------
