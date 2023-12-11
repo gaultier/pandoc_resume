@@ -71,7 +71,7 @@ Technical experience
 :   **AWS, Docker** 15+ production applications delivered. 
 
 2018-Present
-:   **Kafka, Kubernetes, MySQL, ProgresSQL, MariaDB** 10+ production applications delivered.
+:   **Kafka, Kubernetes, MySQL, PostgresSQL, MariaDB** 10+ production applications delivered.
 
 2018-Present
 :   **Go** Multiple performant production applications in Go delivered.
