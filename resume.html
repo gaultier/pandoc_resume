@@ -1,395 +1,67 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
-<head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>resume</title>
-  <style>
-    html {
-      line-height: 1.5;
-      font-family: Georgia, serif;
-      font-size: 20px;
-      color: #1a1a1a;
-      background-color: #fdfdfd;
-    }
-    body {
-      margin: 0 auto;
-      max-width: 36em;
-      padding-left: 50px;
-      padding-right: 50px;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      hyphens: auto;
-      overflow-wrap: break-word;
-      text-rendering: optimizeLegibility;
-      font-kerning: normal;
-    }
-    @media (max-width: 600px) {
-      body {
-        font-size: 0.9em;
-        padding: 1em;
-      }
-      h1 {
-        font-size: 1.8em;
-      }
-    }
-    @media print {
-      body {
-        background-color: transparent;
-        color: black;
-        font-size: 12pt;
-      }
-      p, h2, h3 {
-        orphans: 3;
-        widows: 3;
-      }
-      h2, h3, h4 {
-        page-break-after: avoid;
-      }
-    }
-    p {
-      margin: 1em 0;
-    }
-    a {
-      color: #1a1a1a;
-    }
-    a:visited {
-      color: #1a1a1a;
-    }
-    img {
-      max-width: 100%;
-    }
-    h1, h2, h3, h4, h5, h6 {
-      margin-top: 1.4em;
-    }
-    h5, h6 {
-      font-size: 1em;
-      font-style: italic;
-    }
-    h6 {
-      font-weight: normal;
-    }
-    ol, ul {
-      padding-left: 1.7em;
-      margin-top: 1em;
-    }
-    li > ol, li > ul {
-      margin-top: 0;
-    }
-    blockquote {
-      margin: 1em 0 1em 1.7em;
-      padding-left: 1em;
-      border-left: 2px solid #e6e6e6;
-      color: #606060;
-    }
-    code {
-      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
-      font-size: 85%;
-      margin: 0;
-    }
-    pre {
-      margin: 1em 0;
-      overflow: auto;
-    }
-    pre code {
-      padding: 0;
-      overflow: visible;
-      overflow-wrap: normal;
-    }
-    .sourceCode {
-     background-color: transparent;
-     overflow: visible;
-    }
-    hr {
-      background-color: #1a1a1a;
-      border: none;
-      height: 1px;
-      margin: 1em 0;
-    }
-    table {
-      margin: 1em 0;
-      border-collapse: collapse;
-      width: 100%;
-      overflow-x: auto;
-      display: block;
-      font-variant-numeric: lining-nums tabular-nums;
-    }
-    table caption {
-      margin-bottom: 0.75em;
-    }
-    tbody {
-      margin-top: 0.5em;
-      border-top: 1px solid #1a1a1a;
-      border-bottom: 1px solid #1a1a1a;
-    }
-    th {
-      border-top: 1px solid #1a1a1a;
-      padding: 0.25em 0.5em 0.25em 0.5em;
-    }
-    td {
-      padding: 0.125em 0.5em 0.25em 0.5em;
-    }
-    header {
-      margin-bottom: 4em;
-      text-align: center;
-    }
-    #TOC li {
-      list-style: none;
-    }
-    #TOC ul {
-      padding-left: 1.3em;
-    }
-    #TOC > ul {
-      padding-left: 0;
-    }
-    #TOC a:not(:hover) {
-      text-decoration: none;
-    }
-    code{white-space: pre-wrap;}
-    span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
-    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
-  </style>
-  <style type="text/css">
-
-  hr {
-    background-color: rgb(200,200,200);
-  }
-  /*
-   * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
-   *
-   * CSS for making a resume with pandoc. Inspired by moderncv.
-   *
-   * This CSS document is delivered to you under the CC BY-SA 3.0 License.
-   * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
-   */
-
-  /* Whole document */
-  body {
-      font-family: monospace, sans-serif;
-      max-width: 900px;
-      margin: auto;
-      background: #FFFFFF;
-      padding: 8px 8px 0 8px;
-  }
-
-  /* Title of the resume */
-  h1 {
-      font-size: 50px;
-      color: #5c6bc0;
-      text-align:center;
-      margin-bottom:8px;
-      margin-top:0;
-  }
-
-  /* Titles of categories */
-  h2 {
-      /* This is called "sectioncolor" in the ConTeXt stylesheet. */
-      color: #5c6bc0;
-  }
-  /* There is a bar just before each category */
-  h2:before {
-      content: "";
-      display: inline-block;
-      margin-right:1%;
-      width: 16%;
-      height: 8px; 
-      /* This is called "rulecolor" in the ConTeXt stylesheet. */
-      background-color: #311b92;
-  }
-
-  #info {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-  }
-
-  /* Definitions */
-  dt {
-      float: left;
-      clear: left;
-      width: 17%;
-      overflow-wrap: break-word;
-  }
-
-  strong {
-  }
-
-  dd {
-      margin-left: 17%;
-      margin-bottom: .5rem;
-  }
-  p {
-      margin-bottom:8px;
-      margin-top:8px;
-  }
-
-  /* Blockquotes */
-  blockquote {
-      text-align: center;
-      margin: 1rem;
-      font-weight: bold !important;
-      border-left: 0;
-      padding-left: 0;
-  }
-
-  /* Links */
-  a {
-      text-decoration: none;
-      color: #455a64;
-  }
-
-  blockquote {
-      font-weight: lighter;
-      color: #37474f;
-  }
-
-  table {
-      color: #607d8b;
-      width: 100%;
-  }
-
-  em {
-      color: #607d8b;
-  }
-  </style>
+<html>
+<head> 
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-<h2 id="philippe-gaultier">Philippe Gaultier</h2>
+<h2>Philippe Gaultier</h2>
 <blockquote>
-<p>I am a Senior Software Engineer focusing on delivering
-<em>simple</em>, high quality software that’s easy to understand,
-deploy, and troubleshoot.</p>
+<p>I am a Senior Software Engineer focusing on delivering <em>simple</em>, high quality software that's easy to understand, deploy, and troubleshoot.</p>
 </blockquote>
 <hr>
 <section id="info">
 <div>
-<p>Piesenkofen 8A, 84546 Egglkofen, Germany</p>
+Piesenkofen 8A, 84546 Egglkofen, Germany 
 <p>+49 151 72465946</p>
-<p><a
-href="mailto:philigaultier@gmail.com">philigaultier@gmail.com</a></p>
+<p><a href="mailto:philigaultier@gmail.com">philigaultier@gmail.com</a></p>
 </div>
 <div>
-<p><a href="https://www.linkedin.com/in/philippegaultier"
-target="_blank">Linkedin</a></p>
-<p><a href="https://github.com/gaultier"
-target="_blank">https://github.com/gaultier</a></p>
-<p><a href="https://gaultier.github.io/blog/"
-target="_blank">Blog</a></p>
+<p><a href="https://www.linkedin.com/in/philippegaultier">Linkedin</a></p>
+<p><a href="https://github.com/gaultier">Github</a></p>
+<p><a href="https://gaultier.github.io/blog/">Blog</a></p>
 </div>
 </section>
 <hr>
-<h2 id="experience">Experience</h2>
-<p><strong>Senior Software Engineer</strong> <em>Giesecke+Devrient,
-Munich, Germany; 2023-present</em></p>
-<p>I work on one of the most promising <a
-href="https://en.wikipedia.org/wiki/Central_bank_digital_currency"
-target="_blank">Central Bank Digital Currency (CBDC)</a> already used by
-several countries with real users and banks, with <em>C++</em>,
-<em>Go</em>, <em>Docker</em> and <em>Kubernetes</em>, with the highest
-levels of availability, correctness, security, and regulatory
-constraints.</p>
-<p><strong>Back-end Software Engineer &amp; DevOps</strong> <em>PPRO,
-Munich, Germany; 2017-2023</em></p>
-<p>I wrote and deployed end-to-end Fintech web services that serve
-millions of customers worldwide with billions of euros in transaction
-volume, in a variety of tech stacks (<em>Go</em>, <em>C++</em>,
-<em>Kotlin</em>, <em>Docker</em>, <em>Kubernetes</em>,
-<em>Terraform</em>), with high availability and regulatory constraints.
-I also helped moving multiple services from the data center to the cloud
-without disruption or customers even noticing. I also have taken on
-DevOps &amp; SRE responsabilities such as adding logging, metrics,
-alerting, distributed tracing and performance monitoring to existing
-software in order to increase their reliability, as well as guaranteeing
-SLAs crucial to the business. I did on-call for business critical
-services, and I conducted numerous technical interviews.</p>
-<p><strong>Full-stack Software Engineer</strong> <em>EdgeLab, Lausanne,
-Switzerland; 2015-2017</em></p>
-<p>I joined a Fintech startup and helped the product (risk analytics
-&amp; investment decision making application) go to the next level by
-introducing internationalization, OAuth, Continuous Integration, and
-upgrading to the latest language standards (<em>ECMAScript 6</em>,
-<em>C++14</em>), and worked among other things on the quantitative
-prediction algorithms in <em>C++</em>. The startup was later acquired by
-a major Swiss bank for a 8 digit number.</p>
-<p><strong>CRNS Intern Software Engineer experimenting with Oculus Rift
-(VR)</strong> <em>CNRS, Strasbourg, France; 2014</em></p>
-<p>3D Oculus Rift (virtual reality) visualization software of
-astronomical data for pedagogical and research purposes in <em>C</em>,
-<em>C++</em> and <em>OpenGL 3.3</em>.</p>
-<p><strong>Intern Software Engineer</strong> <em>Crédit Mutuel (Bank),
-Strasbourg, France; 2013</em></p>
-<p>I migrated a <em>COBOL</em> mainframe accounting application to a
-<em>C#</em> web application with some new parts in <em>COBOL</em> for
-one of the biggest banks in the country.</p>
-<h2 id="technical-experience">Technical experience</h2>
-<dl>
-<dt>2013-Present</dt>
-<dd>
-<strong>AWS, Docker</strong> 15+ production applications delivered.
-</dd>
-<dt>2018-Present</dt>
-<dd>
-<strong>Kafka, Kubernetes, MySQL, ProgresSQL, MariaDB</strong> 10+
-production applications delivered.
-</dd>
-<dt>2018-Present</dt>
-<dd>
-<strong>Go</strong> Multiple performant production applications in Go
-delivered.
-</dd>
-<dt>2011-Present</dt>
-<dd>
-<strong>C &amp; C++:</strong> Worked on lots of low level side projects
-and big, long-lived production applications in a wide range of OSes and
-platforms.
-</dd>
-<dt>2016-Present</dt>
-<dd>
-<strong>Rust, Zig &amp; Odin</strong>: Enthusiast with several low-level
-open-source projects to my belt. I would love to work with these
-languages for a living!
-</dd>
-</dl>
-<p>Solid knowledge of <strong>x64 assembly</strong>,
-<strong>Terraform</strong>, <strong>Python</strong>,
-<strong>JVM</strong>, <strong>Dtrace</strong>. I worked on small and big
-production applications with those languages, but I don’t see myself
-working full-time with those.</p>
-<p>Miscellaneous knowledge of <strong>Nasm</strong>,
-<strong>Lua</strong>, <strong>Redis</strong>, <strong>DynamoDB</strong>,
-<strong>Lisp</strong>, <strong>Cassandra</strong>. I worked briefly with
-those technologies at work or on open-source projects.</p>
-<h2 id="education">Education</h2>
-<dl>
-<dt>2018-Present</dt>
-<dd>
-<strong>Several trainings and workshops by AWS</strong>
-</dd>
-<dt>2012-2015</dt>
-<dd>
-<strong>Masters in Computer Science &amp; Engineering Degree</strong>
-<em>ENSIIE, Strasbourg, France</em>
-</dd>
-<dt>2010-2012</dt>
-<dd>
-<strong>Higher School Preparatory Classes</strong> <em>Lycée Kléber,
-Strasbourg, France</em>
-</dd>
-<dt>2007-2012</dt>
-<dd>
-<strong>Abibac (dual French &amp; German Highschool Diploma)</strong>
-<em>Belfort, France</em>
-</dd>
-</dl>
-<h2 id="hobbies">Hobbies</h2>
+<h2>Experience</h2>
+<p><strong>Senior Software Engineer</strong> <em>Giesecke+Devrient, Munich, Germany; 2023-present</em></p>
+<p>I work on one of the most promising <a href="https://en.wikipedia.org/wiki/Central_bank_digital_currency">Central Bank Digital Currency (CBDC)</a> already used by several countries with real users and banks, with <em>C++</em>, <em>Go</em>, <em>Docker</em> and <em>Kubernetes</em>, with the highest levels of availability, correctness, security, and regulatory constraints.</p>
+<p><strong>Back-end Software Engineer &amp; DevOps</strong> <em>PPRO, Munich, Germany; 2017-2023</em></p>
+<p>I wrote and deployed end-to-end Fintech web services that serve millions of customers worldwide with billions of euros in transaction volume, in a variety of tech stacks (<em>Go</em>, <em>C++</em>, <em>Kotlin</em>, <em>Docker</em>, <em>Kubernetes</em>, <em>Terraform</em>), with high availability and regulatory constraints.
+I also helped moving multiple services from the data center to the cloud without disruption or customers even noticing.
+I also have taken on DevOps &amp; SRE responsabilities such as adding logging, metrics, alerting, distributed tracing and performance monitoring to existing software in order to increase their reliability, as well as guaranteeing SLAs crucial to the business. I did on-call for business critical services, and I conducted numerous technical interviews.</p>
+<p><strong>Full-stack Software Engineer</strong> <em>EdgeLab, Lausanne, Switzerland; 2015-2017</em></p>
+<p>I joined a Fintech startup and helped the product (risk analytics &amp; investment decision making application) go to the next level by introducing internationalization, OAuth, Continuous Integration, and upgrading to the latest language standards (<em>ECMAScript 6</em>, <em>C++14</em>), and worked among other things on the quantitative prediction algorithms in <em>C++</em>.
+The startup was later acquired by a major Swiss bank for a 8 digit number.</p>
+<p><strong>CRNS Intern Software Engineer experimenting with Oculus Rift (VR)</strong> <em>CNRS, Strasbourg, France; 2014</em></p>
+<p>3D Oculus Rift (virtual reality) visualization software of astronomical data for pedagogical and research purposes in <em>C</em>, <em>C++</em> and <em>OpenGL 3.3</em>.</p>
+<p><strong>Intern Software Engineer</strong> <em>Crédit Mutuel (Bank), Strasbourg, France; 2013</em></p>
+<p>I migrated a <em>COBOL</em> mainframe accounting application to a <em>C#</em> web application with some new parts in <em>COBOL</em> for one of the biggest banks in the country.</p>
+<h2>Technical experience</h2>
+<p>2013-Present
+:   <strong>AWS, Docker</strong> 15+ production applications delivered.</p>
+<p>2018-Present
+:   <strong>Kafka, Kubernetes, MySQL, ProgresSQL, MariaDB</strong> 10+ production applications delivered.</p>
+<p>2018-Present
+:   <strong>Go</strong> Multiple performant production applications in Go delivered.</p>
+<p>2011-Present
+:   <strong>C &amp; C++:</strong> Worked on lots of low level side projects and big, long-lived production applications in a wide range of OSes and platforms.</p>
+<p>2016-Present
+:   <strong>Rust, Zig &amp; Odin</strong>: Enthusiast with several low-level open-source projects to my belt. I would love to work with these languages for a living!</p>
+<p>Solid knowledge of <strong>x64 assembly</strong>, <strong>Terraform</strong>, <strong>Python</strong>, <strong>JVM</strong>, <strong>Dtrace</strong>. I worked on small and big production applications with those languages, but I don't see myself working full-time with those.</p>
+<p>Miscellaneous knowledge of <strong>Nasm</strong>, <strong>Lua</strong>, <strong>Redis</strong>, <strong>DynamoDB</strong>, <strong>Lisp</strong>, <strong>Cassandra</strong>. I worked briefly with those technologies at work or on open-source projects.</p>
+<h2>Education</h2>
+<p>2018-Present
+: <strong>Several trainings and workshops by AWS</strong></p>
+<p>2012-2015
+:   <strong>Masters in Computer Science &amp; Engineering Degree</strong> <em>ENSIIE, Strasbourg, France</em></p>
+<p>2010-2012
+:   <strong>Higher School Preparatory Classes</strong> <em>Lycée Kléber, Strasbourg, France</em></p>
+<p>2007-2012
+:   <strong>Abibac (dual French &amp; German Highschool Diploma)</strong> <em>Belfort, France</em></p>
+<h2>Hobbies</h2>
 <ul>
-<li>Languages: French (native), English (fluent, TOEIC 990/990), German
-(fluent, C2 diplom), Bavarian (adept)</li>
+<li>Languages: French (native), English (fluent, TOEIC 990/990), German (fluent, C2 diplom), Bavarian (adept)</li>
 <li>Weightlifting</li>
 <li>Philology (Language learning)</li>
 <li>Cinema</li>
