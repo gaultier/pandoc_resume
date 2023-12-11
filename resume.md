@@ -1,7 +1,111 @@
+<style type="text/css">
+
+hr {
+  background-color: rgb(200,200,200);
+}
+/*
+ * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+ *
+ * CSS for making a resume with pandoc. Inspired by moderncv.
+ *
+ * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+ * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+ */
+
+/* Whole document */
+body {
+    font-family: monospace, sans-serif;
+    max-width: 900px;
+    margin: auto;
+    background: #FFFFFF;
+    padding: 8px 8px 0 8px;
+}
+
+/* Title of the resume */
+h1 {
+    font-size: 50px;
+    color: #5c6bc0;
+    text-align:center;
+    margin-bottom:8px;
+    margin-top:0;
+}
+
+/* Titles of categories */
+h2 {
+    /* This is called "sectioncolor" in the ConTeXt stylesheet. */
+    color: #5c6bc0;
+}
+/* There is a bar just before each category */
+h2:before {
+    content: "";
+    display: inline-block;
+    margin-right:1%;
+    width: 16%;
+    height: 8px; 
+    /* This is called "rulecolor" in the ConTeXt stylesheet. */
+    background-color: #311b92;
+}
+
+#info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Definitions */
+dt {
+    float: left;
+    clear: left;
+    width: 17%;
+    overflow-wrap: break-word;
+}
+
+strong {
+}
+
+dd {
+    margin-left: 17%;
+    margin-bottom: .5rem;
+}
+p {
+    margin-bottom:8px;
+    margin-top:8px;
+}
+
+/* Blockquotes */
+blockquote {
+    text-align: center;
+    margin: 1rem;
+    font-weight: bold !important;
+    border-left: 0;
+    padding-left: 0;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #455a64;
+}
+
+blockquote {
+    font-weight: lighter;
+    color: #37474f;
+}
+
+table {
+    color: #607d8b;
+    width: 100%;
+}
+
+em {
+    color: #607d8b;
+}
+</style>
+
 ## Philippe Gaultier
 
 
-> I am a Senior Software Engineer focusing on delivering *simple*, high quality software that's easy to understand, deploy, and troubleshoot. 
+> I am a Senior Software Engineer focusing on delivering *simple*, high quality software that's easy to understand, deploy, and troubleshoot.
 
 
 <hr>
@@ -30,13 +134,13 @@ Experience
 
 **Senior Software Engineer** *Giesecke+Devrient, Munich, Germany; 2023-present*
 
-I work on one of the most promising [Central Bank Digital Currency (CBDC)](https://en.wikipedia.org/wiki/Central_bank_digital_currency) already used by several countries with real users and banks, with *Go*, *Docker* and *Kubernetes*, with the highest levels of availability, correctness, and regulatory constraints.
+I work on one of the most promising [Central Bank Digital Currency (CBDC)](https://en.wikipedia.org/wiki/Central_bank_digital_currency) already used by several countries with real users and banks, with *C++*, *Go*, *Docker* and *Kubernetes*, with the highest levels of availability, correctness, security, and regulatory constraints.
 
 **Back-end Software Engineer & DevOps** *PPRO, Munich, Germany; 2017-2023*
 
 I wrote and deployed end-to-end Fintech web services that serve millions of customers worldwide with billions of euros in transaction volume, in a variety of tech stacks (*Go*, *C++*, *Kotlin*, *Docker*, *Kubernetes*, *Terraform*), with high availability and regulatory constraints.
 I also helped moving multiple services from the data center to the cloud without disruption or customers even noticing.
-I also have taken on DevOps & SRE responsabilities such as adding logging, metrics, alerting, distributed tracing and performance monitoring to existing software in order to increase their reliability, as well as guaranteeing SLAs crucial to the business. I did on-call for business critical services, and I conducted technical interviews.
+I also have taken on DevOps & SRE responsabilities such as adding logging, metrics, alerting, distributed tracing and performance monitoring to existing software in order to increase their reliability, as well as guaranteeing SLAs crucial to the business. I did on-call for business critical services, and I conducted numerous technical interviews.
 
 **Full-stack Software Engineer** *EdgeLab, Lausanne, Switzerland; 2015-2017*
 
@@ -66,10 +170,10 @@ Technical experience
 :   **Go** Multiple performant production applications in Go delivered.
 
 2011-Present
-:   **C & C++:** Worked on lots of small side projects and big, long-lived production applications.
+:   **C & C++:** Worked on lots of low level side projects and big, long-lived production applications in a wide range of OSes and platforms.
 
 2016-Present
-:   **Rust, Zig & Odin**: Enthusiast with several open-source projects to my belt. I would love to work with these languages for a living!
+:   **Rust, Zig & Odin**: Enthusiast with several low-level open-source projects to my belt. I would love to work with these languages for a living!
 
 Solid knowledge of **x64 assembly**, **Terraform**, **Python**, **JVM**, **Dtrace**. I worked on small and big production applications with those languages, but I don't see myself working full-time with those.
 
@@ -92,7 +196,7 @@ Education
 
 Hobbies
 -------
-* Languages: French (native), English (fluent), German (fluent), Bavarian (adept)
+* Languages: French (native), English (fluent, TOEIC 990/990), German (fluent, C2 diplom), Bavarian (adept)
 * Weightlifting
 * Philology (Language learning)
 * Cinema
