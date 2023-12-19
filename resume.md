@@ -54,7 +54,7 @@ I also have taken on DevOps & SRE responsabilities such as adding logging, metri
 I joined a Fintech startup and helped the product (risk analytics & investment decision making application) go to the next level by introducing internationalization, OAuth, Continuous Integration, and upgrading to the latest language standards (*ECMAScript 6*, *C++14*), and worked among other things on the quantitative prediction algorithms in *C++*.
 The startup was later acquired by a major Swiss bank for a 8 digit number.
 
-**CRNS Intern Software Engineer experimenting with Oculus Rift (VR)** *CNRS, Strasbourg, France; 2014*
+**CRNS Intern Software Engineer experimenting with the Oculus Rift (VR)** *CNRS, Strasbourg, France; 2014*
 
 3D Oculus Rift (virtual reality) visualization software of astronomical data for pedagogical and research purposes in *C*, *C++* and *OpenGL 3.3*.
 
