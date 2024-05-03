@@ -89,7 +89,7 @@ Technical experience
 
 Solid knowledge of **x64 assembly**, **Terraform**, **Python**, **JVM**, **Dtrace**. I worked on small and big production applications with those languages, but I don't see myself working full-time with those.
 
-Miscellaneous knowledge of **Nasm**, **Lua**, **Redis**, **DynamoDB**, **Lisp**, **Cassandra**. I worked briefly with those technologies at work or on open-source projects.
+Miscellaneous knowledge of **Ruby**, **Lua**, **Redis**, **DynamoDB**, **Lisp**, **Cassandra**. I worked briefly with those technologies at work or on open-source projects.
 
 Education
 ---------
