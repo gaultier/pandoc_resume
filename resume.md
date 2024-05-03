@@ -112,7 +112,7 @@ Hobbies
 * Weightlifting
 * Philology (Language learning)
 * Cinema
-* Woodworking
+* Gardening
 * Contributing to open-source projects
 
 </body>
