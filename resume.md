@@ -76,7 +76,7 @@ Technical experience
 :   **Kafka, Kubernetes, MySQL, PostgresSQL, MariaDB** 10+ production applications delivered.
 
 2018-Present
-:   **Go** Multiple performant production applications in Go delivered.
+:   **Go** 10+ performant production applications in Go delivered.
 
 2011-Present
 :   **C, C++, CMake:** Worked on lots of low level side projects and big, long-lived production applications in a wide range of OSes and platforms.
