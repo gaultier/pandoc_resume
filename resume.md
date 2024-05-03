@@ -85,7 +85,7 @@ Technical experience
 :   **Rust:** I initiated and led the effort to rewrite an insecure and crucial C++ codebase in Rust running on 10+ platforms as well as mentoring teammates to learn Rust & C++.
 
 2016-Present
-:   **Rust, Zig & Odin**: Enthusiast with several low-level open-source projects to my belt. I would love to work with these languages for a living!
+:   **Zig & Odin**: Enthusiast with several low-level open-source projects to my belt. I would love to work with these languages for a living!
 
 Solid knowledge of **x64 assembly**, **Terraform**, **Python**, **JVM**, **Dtrace**. I worked on small and big production applications with those languages, but I don't see myself working full-time with those.
 
