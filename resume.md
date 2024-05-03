@@ -87,7 +87,7 @@ Technical experience
 2016-Present
 :   **Zig & Odin**: Enthusiast with several low-level open-source projects to my belt. I would love to work with these languages for a living!
 
-Solid knowledge of **x64 assembly**, **Terraform**, **Python**, **JVM**, **Dtrace**, **MySQL**, **PostgreSQL**. I worked on small and big production applications with those languages, but I don't see myself working full-time with those.
+Solid knowledge of **x64 assembly**, **Terraform**, **Python**, **JVM**, **Dtrace**. I worked on small and big production applications with those languages, but I don't see myself working full-time with those.
 
 Miscellaneous knowledge of **Ruby**, **Lua**, **Redis**, **DynamoDB**, **Lisp**, **Cassandra**, **SQlite**. I worked briefly with those technologies at work or on open-source projects.
 
