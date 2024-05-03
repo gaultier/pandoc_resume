@@ -43,7 +43,7 @@ Experience
 
 I work on one of the most promising [Central Bank Digital Currency (CBDC)](https://en.wikipedia.org/wiki/Central_bank_digital_currency) already used by several countries with real users and banks, with *Rust*, *C++*, *Go*, *Docker* and *Kubernetes*, with the highest levels of availability, correctness, security, and regulatory constraints.
 
-There, I initiated and led the effort to rewrite an insecure and crucial C++ codebase in Rust running on 10+ platforms as well as mentoring teammates to learn Rust & C++.
+There, I initiated and led the effort to rewrite an insecure and crucial C++ codebase in Rust running on 10+ platforms including mobile, as well as mentoring teammates to learn Rust & C++.
 
 **Back-end Software Engineer & DevOps** *PPRO, Munich, Germany; 2017-2023*
 
@@ -82,7 +82,7 @@ Technical experience
 :   **C, C++, CMake:** Delivered 10+ low level side projects and big, long-lived production applications in a wide range of OSes and platforms including mobile.
 
 2023-Present
-:   **Rust:** I initiated and led the effort to rewrite an insecure and crucial C++ codebase in Rust running on 10+ platforms as well as mentoring teammates to learn Rust & C++.
+:   **Rust:** I initiated and led the effort to rewrite an insecure and crucial C++ codebase in Rust running on 10+ platforms including mobile as well as mentoring teammates to learn Rust & C++.
 
 2016-Present
 :   **Zig & Odin**: Enthusiast with several low-level open-source projects to my belt. I would love to work with these languages for a living!
