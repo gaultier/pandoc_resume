@@ -10,7 +10,7 @@
 ## Philippe Gaultier
 
 
-> I am a Senior Software Engineer focusing on delivering *simple*, high quality software that's easy to understand, deploy, and troubleshoot.
+> I am a French-German Senior Software Engineer focusing on delivering *simple*, high quality software that's easy to understand, deploy, and troubleshoot.
 
 
 <hr>
@@ -108,7 +108,7 @@ Education
 
 Hobbies
 -------
-* Languages: French (native), English (fluent, TOEIC 990/990), German (fluent, C2 diplom), Bavarian (adept)
+* Languages: French (native), English (fluent, TOEIC 990/990), German (fluent, C2 diplom), Bavarian (intermediate), Japanese (beginner)
 * Weightlifting
 * Philology (Language learning)
 * Cinema
