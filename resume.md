@@ -70,7 +70,7 @@ Technical experience
 
 
 2013-Present
-:   **AWS, Docker, Git** 15+ production applications delivered.
+:   **AWS, Docker, Git** 20+ production applications delivered.
 
 2018-Present
 :   **Kafka, Kubernetes, MySQL, PostgresSQL, MariaDB** 10+ production applications delivered.
