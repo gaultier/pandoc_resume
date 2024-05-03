@@ -79,7 +79,7 @@ Technical experience
 :   **Go** Multiple performant production applications in Go delivered.
 
 2011-Present
-:   **C & C++:** Worked on lots of low level side projects and big, long-lived production applications in a wide range of OSes and platforms.
+:   **C, C++, CMake:** Worked on lots of low level side projects and big, long-lived production applications in a wide range of OSes and platforms.
 
 2023-Present
 :   **Rust:** I initiated and led the effort to rewrite an insecure and crucial C++ codebase in Rust running on 10+ platforms as well as mentoring teammates to learn Rust & C++.
