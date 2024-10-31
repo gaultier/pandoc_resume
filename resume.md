@@ -16,7 +16,7 @@
 <hr>
 <section id="info">
 <div>
-Piesenkofen 8A, 84546 Egglkofen, Germany 
+84546 Egglkofen, Germany 
 
 +49 151 72465946
 
